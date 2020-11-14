@@ -1,0 +1,81 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+}
+
+h1, h5, h6 {
+    color: #ffffff;
+}
+
+textarea {
+    min-width: 100%;
+    color: #15202B;
+}
+
+nav {
+    height: 60px;
+}
+
+nav a {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+nav .active {
+    color: #ffffff;
+}
+
+.main-wrapper {
+    min-height: 100vh;
+    background-color: #15202B;
+}
+
+.profile-wrapper {
+    margin-top: 115px;
+}
+
+.tweet-div {
+    width: 680px;
+}
+
+.user-input-custom {
+    background-color: #15202B;
+    color: #ffffff;
+    min-height: 60px;
+    min-width: 600px;
+    display: block;
+}
+
+.tweet-input {
+    min-width: 100%;
+    margin-top: 115px;
+}
+
+.textarea-custom {
+    background-color: #15202B;
+    color: #ffffff;
+    min-height: 180px;
+    min-width: 680px;
+}
+
+.textarea-custom:focus {
+    background-color: #15202B;
+    color: #ffffff;
+}
+
+.textarea-custom::placeholder  {
+    color: #ffffff;
+}
+
+.card {
+    background-color: #343A40;
+    color: #ffffff;
+    margin: 15px 0;
+}
+
+.card p {
+    color: #6C757D;
+}
+
+.disabled {
+    background-color: grey;
+}
